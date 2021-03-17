@@ -29,4 +29,12 @@ public interface Radnja {
 	 *			null ako je markaModel gume null.
 	 */
 	LinkedList<AutoGuma> pronadjiGumu(String markaModel);
+	
+	/**
+	 * Vraca listu svih guma u radnji.
+	 * @return lista svih guma
+	 */
+	LinkedList<AutoGuma> getGume();
+
+	
 }
